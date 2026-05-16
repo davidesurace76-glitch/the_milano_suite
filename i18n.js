@@ -65,7 +65,17 @@ const DICT = {
     dow: ["Mo","Tu","We","Th","Fr","Sa","Su"],
     wa_hi: "Hi The Milano Suite! 👋", wa_line: "I'd like to enquire about the suite in Porta Romana:",
     wa_ci: "Check-in", wa_co: "Check-out", wa_n: "Nights", wa_g: "Guests", wa_est: "Estimate",
-    wa_ask: "Is it available? Thanks!"
+    wa_ask: "Is it available? Thanks!",
+    reviews_eyebrow: "What they say",
+    reviews_title: "Guest reviews",
+    reviews_btn: "View on Airbnb",
+    reviews_loved: "Guest favorite",
+    reviews_score: "5.0",
+    reviews_count: "10 reviews on Airbnb",
+    reviews_1_text: "\"Beautiful suite with private bathroom in a design villa in the heart of Porta Romana. The room, large and bright, combines elegance, comfort and privacy. Host was very helpful.\"",
+    reviews_2_text: "\"The apartment is in a strategic location, well connected to the center by subway (M3 - Lodi). Gorgeous garden and total relaxation, highly recommended!\"",
+    reviews_3_text: "\"Everything for a long, easy stay. The design is beautiful and the host is very attentive to details. The smart TV and fast WiFi were perfect for my work trip.\"",
+    reviews_direct_book: "<strong>Book directly with us — often cheaper than booking through Airbnb (no platform fees).</strong>"
   },
 
   fr: {
@@ -128,7 +138,17 @@ const DICT = {
     dow: ["Lu","Ma","Me","Je","Ve","Sa","Di"],
     wa_hi: "Bonjour The Milano Suite ! 👋", wa_line: "Je souhaite me renseigner sur la suite à Porta Romana :",
     wa_ci: "Arrivée", wa_co: "Départ", wa_n: "Nuits", wa_g: "Voyageurs", wa_est: "Estimation",
-    wa_ask: "Est-elle disponible ? Merci !"
+    wa_ask: "Est-elle disponible ? Merci !",
+    reviews_eyebrow: "Ce qu'ils disent",
+    reviews_title: "Avis des voyageurs",
+    reviews_btn: "Voir sur Airbnb",
+    reviews_loved: "Coup de cœur",
+    reviews_score: "5.0",
+    reviews_count: "10 avis sur Airbnb",
+    reviews_1_text: "\"Superbe suite avec salle de bain privée dans une villa design au cœur de Porta Romana. La chambre, grande et lumineuse, allie élégance, confort et intimité. L'hôte était très disponible.\"",
+    reviews_2_text: "\"L'appartement est dans un emplacement stratégique, bien relié au centre par le métro (M3 - Lodi). Jardin magnifique et détente totale, je recommande vivement !\"",
+    reviews_3_text: "\"Tout pour un séjour long et serein. Le design est magnifique et l'hôte est très attentif aux détails. La smart TV et le WiFi rapide étaient parfaits pour mon voyage d'affaires.\"",
+    reviews_direct_book: "<strong>Réservez directement avec nous — souvent moins cher que sur Airbnb (sans frais de plateforme).</strong>"
   },
 
   es: {
@@ -191,7 +211,17 @@ const DICT = {
     dow: ["Lu","Ma","Mi","Ju","Vi","Sá","Do"],
     wa_hi: "¡Hola The Milano Suite! 👋", wa_line: "Quisiera información sobre la suite en Porta Romana:",
     wa_ci: "Check-in", wa_co: "Check-out", wa_n: "Noches", wa_g: "Huéspedes", wa_est: "Estimado",
-    wa_ask: "¿Está disponible? ¡Gracias!"
+    wa_ask: "¿Está disponible? ¡Gracias!",
+    reviews_eyebrow: "Lo que dicen",
+    reviews_title: "Reseñas de huéspedes",
+    reviews_btn: "Ver en Airbnb",
+    reviews_loved: "Favorito de los huéspedes",
+    reviews_score: "5.0",
+    reviews_count: "10 reseñas en Airbnb",
+    reviews_1_text: "\"Hermosa suite con baño privado en una villa de diseño en el corazón de Porta Romana. La habitación, amplia y luminosa, combina elegancia, confort y privacidad. El anfitrión fue muy atento.\"",
+    reviews_2_text: "\"El apartamento está en una ubicación estratégica, bien comunicado con el centro por metro (M3 - Lodi). Precioso jardín y relax total, muy recomendable.\"",
+    reviews_3_text: "\"Todo para una estancia larga y tranquila. El diseño es hermoso y el anfitrión es muy atento a los detalles. La Smart TV y el WiFi rápido fueron perfectos para mi viaje de trabajo.\"",
+    reviews_direct_book: "<strong>Reserva directamente con nosotros — a menudo más barato que a través de Airbnb (sin comisiones de plataforma).</strong>"
   },
 
   it: {
@@ -254,7 +284,17 @@ const DICT = {
     dow: ["Lu","Ma","Me","Gi","Ve","Sa","Do"],
     wa_hi: "Ciao The Milano Suite! 👋", wa_line: "Vorrei informazioni sulla suite a Porta Romana:",
     wa_ci: "Check-in", wa_co: "Check-out", wa_n: "Notti", wa_g: "Ospiti", wa_est: "Stimato",
-    wa_ask: "È disponibile? Grazie!"
+    wa_ask: "È disponibile? Grazie!",
+    reviews_eyebrow: "Dicono di noi",
+    reviews_title: "Valutazioni degli ospiti",
+    reviews_btn: "Vedi su Airbnb",
+    reviews_loved: "Amato dagli ospiti",
+    reviews_score: "5.0",
+    reviews_count: "10 recensioni su Airbnb",
+    reviews_1_text: "\"Splendida suite con bagno privato in una villa di design nel cuore di Porta Romana. La camera, ampia e luminosa, combina eleganza, comfort e privacy. Host disponibilissimo.\"",
+    reviews_2_text: "\"L'appartamento si trova in una posizione strategica, ben collegata al centro tramite metropolitana (M3 - Lodi). Giardino stupendo e relax totale, raccomandatissimo!\"",
+    reviews_3_text: "\"Tutto per un soggiorno lungo e sereno. Il design è bellissimo e l'host è molto attento ai dettagli. La smart TV e il WiFi veloce sono stati perfetti per il mio viaggio di lavoro.\"",
+    reviews_direct_book: "<strong>Prenota direttamente con noi — spesso più economico rispetto ad Airbnb (nessuna commissione).</strong>"
   },
 
   pt: {
@@ -317,7 +357,17 @@ const DICT = {
     dow: ["Se","Te","Qa","Qi","Sx","Sá","Do"],
     wa_hi: "Olá The Milano Suite! 👋", wa_line: "Gostaria de saber sobre a suíte em Porta Romana:",
     wa_ci: "Check-in", wa_co: "Check-out", wa_n: "Noites", wa_g: "Hóspedes", wa_est: "Estimado",
-    wa_ask: "Está disponível? Obrigado!"
+    wa_ask: "Está disponível? Obrigado!",
+    reviews_eyebrow: "O que dizem",
+    reviews_title: "Avaliações de hóspedes",
+    reviews_btn: "Ver no Airbnb",
+    reviews_loved: "Preferido dos hóspedes",
+    reviews_score: "5.0",
+    reviews_count: "10 avaliações no Airbnb",
+    reviews_1_text: "\"Linda suíte com banheiro privativo em uma vila de design no coração da Porta Romana. O quarto, grande e iluminado, combina elegância, conforto e privacidade. O anfitrião foi muito prestativo.\"",
+    reviews_2_text: "\"O apartamento fica em uma localização estratégica, bem conectado ao centro de metrô (M3 - Lodi). Lindo jardim e relaxamento total, super recomendado!\"",
+    reviews_3_text: "\"Tudo para uma estadia longa e tranquila. O design é lindo e o anfitrião é muito atencioso aos detalhes. A Smart TV e o WiFi rápido foram perfeitos para a minha viagem de trabalho.\"",
+    reviews_direct_book: "<strong>Reserve diretamente conosco — muitas vezes mais barato que pelo Airbnb (sem taxas de plataforma).</strong>"
   },
 
   de: {
@@ -380,7 +430,17 @@ const DICT = {
     dow: ["Mo","Di","Mi","Do","Fr","Sa","So"],
     wa_hi: "Hallo The Milano Suite! 👋", wa_line: "Ich interessiere mich für die Suite in Porta Romana:",
     wa_ci: "Check-in", wa_co: "Check-out", wa_n: "Nächte", wa_g: "Gäste", wa_est: "Schätzung",
-    wa_ask: "Ist sie verfügbar? Danke!"
+    wa_ask: "Ist sie verfügbar? Danke!",
+    reviews_eyebrow: "Was unsere Gäste sagen",
+    reviews_title: "Gästebewertungen",
+    reviews_btn: "Auf Airbnb ansehen",
+    reviews_loved: "Gäste-Favorit",
+    reviews_score: "5.0",
+    reviews_count: "10 Bewertungen auf Airbnb",
+    reviews_1_text: "\"Wunderschöne Suite mit eigenem Bad in einer Designvilla im Herzen von Porta Romana. Das große und helle Zimmer verbindet Eleganz, Komfort und Privatsphäre. Sehr hilfsbereiter Gastgeber.\"",
+    reviews_2_text: "\"Die Wohnung befindet sich in einer strategischen Lage, gut an das Zentrum durch die U-Bahn angebunden (M3 - Lodi). Wunderschöner Garten und totale Entspannung, sehr empfehlenswert!\"",
+    reviews_3_text: "\"Alles für einen langen, entspannten Aufenthalt. Das Design ist wunderschön und der Gastgeber achtet auf alle Details. Das Smart-TV und schnelle WLAN waren perfekt für meine Arbeitsreise.\"",
+    reviews_direct_book: "<strong>Buchen Sie direkt bei uns — oft günstiger als über Airbnb (keine Plattformgebühren).</strong>"
   }
 };
 
