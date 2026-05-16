@@ -152,6 +152,9 @@
   }
   .nav-cta:hover { background: var(--ink); color: var(--bg); }
 
+  .menu-btn { display: none; width: 32px; height: 32px; padding: 4px; }
+  .menu-btn svg { width: 100%; height: 100%; stroke: currentColor; stroke-width: 1.2; fill: none; }
+
   /* ── Language picker ── */
   .nav-right { display: flex; align-items: center; gap: 14px; }
   .lang { position: relative; }
@@ -210,11 +213,21 @@
   }
 
   @media (max-width: 760px) {
-    .nav-links { display: none; }
+    .nav-links { 
+      display: flex; flex-direction: column; align-items: flex-start;
+      position: absolute; top: 100%; left: 0; right: 0;
+      background: var(--paper); border-bottom: 1px solid var(--line);
+      padding: 18px var(--pad-x); gap: 18px;
+      opacity: 0; pointer-events: none; transform: translateY(-10px);
+      transition: all .25s ease;
+    }
+    .nav-links.open { opacity: 1; pointer-events: auto; transform: translateY(0); }
+    .menu-btn { display: block; }
     .nav-cta { padding: 9px 14px; font-size: 11px; letter-spacing: 0.1em; }
     .lang-btn { padding: 7px 10px; }
     .lang-btn .code { font-size: 10px; }
     .lang-menu { right: -8px; min-width: 200px; }
+    .brand small { display: none; }
   }
   @media (max-width: 420px) {
     .nav-cta { display: none; }
@@ -1694,7 +1707,7 @@
 </main>
 
 <!-- ─────────────────  REVIEWS (Airbnb)  ───────────────── -->
-<section class="wrap" id="reviews" style="padding: clamp(60px, 8vw, 100px) 0;">
+<section class="wrap" id="reviews" style="padding-top: clamp(60px, 8vw, 100px); padding-bottom: clamp(60px, 8vw, 100px);">
   <div style="max-width: 980px; margin: 0 auto;">
     <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 24px; margin-bottom: 40px;">
       <div>
@@ -1724,7 +1737,7 @@
     </div>
 
     <!-- Review Cards -->
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 24px;">
       <!-- Review 1 -->
       <div style="background: var(--paper); padding: 24px; border: 1px solid var(--line); border-radius: 8px;">
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
